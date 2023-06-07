@@ -1,2 +1,3 @@
 #!/bin/bash
-cwd=$(readlink -f "$(dirname "${BASH_SOURCE[0]}")"/..)
+cwd=$(cd "$(dirname "${BASH_SOURCE[0]}")" && cd ../.. && pwd)
+if [ -s README.md ]; then echo "$cwd"; fi
