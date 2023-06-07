@@ -1,5 +1,4 @@
 #!/bin/bash
 
-cwd=$(pwd)
-abs_path=$(realpath "$cwd")
-echo "$abs_path"
+cwd=$(pwd); abs_path=$(realpath "$cwd"); echo "$abs_path"
+
