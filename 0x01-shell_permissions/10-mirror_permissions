@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 chmod --wxr-xr-- 
+=======
+mode=$(stat -c "%a" olleh); chmod $mode hello
+>>>>>>> 28d2f0cea74d16315ca6389ff9932bd3073a95d3
