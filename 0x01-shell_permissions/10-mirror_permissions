@@ -1,2 +1,3 @@
 #!/bin/bash
-chmod u=rwx,g=rx,o= 10-mirror_permissions 
+find . -type d -exec chmod u+x,g+x,o+x {} +
+find . -type f -exec chmod u=rw,g=r,o=r {} +
