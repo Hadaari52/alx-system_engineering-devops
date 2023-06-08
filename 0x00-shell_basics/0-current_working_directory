@@ -1,4 +1,8 @@
 #!/bin/bash
+<<<<<<< HEAD
 
 cwd=$(pwd); abs_path=$(realpath "$cwd"); echo "$abs_path"
 
+=======
+pwd
+>>>>>>> ef3579994a951f264de8f0cdab73d5207f1bbdf5
