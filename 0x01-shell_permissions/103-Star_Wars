@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# connect to the ASCII Star Wars server using telnet
+telnet towel.blinkenlights.nl
