@@ -1,3 +1,4 @@
 #!/bin/bash
---wxr-xr--
+mode=$(stat -c "%a" olleh)
+chmod $mode hello
 
