@@ -1,0 +1,7 @@
+#!/bin/bash
+
+input="your input string with A and c characters"
+
+output=$(echo "$input" | tr 'Ac' 'Ze')
+
+echo "$output"

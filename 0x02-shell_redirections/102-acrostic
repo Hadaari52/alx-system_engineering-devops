@@ -1,0 +1,3 @@
+#!/bin/bash
+awk '{print substr($0,1,1)}' input.txt | tr -d '\n'
+echo
