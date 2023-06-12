@@ -1,7 +1,2 @@
 #!/bin/bash
-
-input="your input string with c and C characters"
-
-output=$(echo "$input" | tr -d 'cC')
-
-echo "$output"
+tr -d 'cC' < input.txt
