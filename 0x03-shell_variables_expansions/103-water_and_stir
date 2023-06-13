@@ -1,3 +1,2 @@
 #!/bin/bash
 sum=$(echo "ibase=water; $WATER + ibase=stir; $STIR" | bc -l | tr -d '\\\n')
-
